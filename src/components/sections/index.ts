@@ -1,0 +1,12 @@
+export { Hero } from "./Hero";
+export { Stats } from "./Stats";
+export { Services } from "./Services";
+export { WhyChooseUs } from "./WhyChooseUs";
+export { Programs } from "./Programs";
+export { UniversityShowcase } from "./UniversityShowcase";
+export { HowItWorks } from "./HowItWorks";
+export { Testimonials } from "./Testimonials";
+export { GoogleReviews } from "./GoogleReviews";
+export { CountryComparison } from "./CountryComparison";
+export { InteractiveFAQ } from "./InteractiveFAQ";
+export { ContactCTA } from "./ContactCTA";
