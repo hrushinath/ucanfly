@@ -8,7 +8,7 @@ const destinations = [
   {
     id: "uk",
     country: "United Kingdom",
-    flag: "ðŸ‡¬ðŸ‡§",
+    // flag removed
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200",
     tagline: "Home of World-Class Education",
     cityImages: [
@@ -46,7 +46,7 @@ const destinations = [
   {
     id: "usa",
     country: "United States",
-    flag: "ðŸ‡ºðŸ‡¸",
+    // flag removed
     image: "https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=1200",
     tagline: "Land of Opportunities",
     cityImages: [
@@ -84,7 +84,7 @@ const destinations = [
   {
     id: "canada",
     country: "Canada",
-    flag: "ðŸ‡¨ðŸ‡¦",
+    // flag removed
     image: "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=1200",
     tagline: "Quality Education, Great Lifestyle",
     cityImages: [
@@ -122,7 +122,7 @@ const destinations = [
   {
     id: "australia",
     country: "Australia",
-    flag: "ðŸ‡¦ðŸ‡º",
+    // flag removed
     image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=1200",
     tagline: "Innovation Meets Adventure",
     cityImages: [
@@ -160,7 +160,7 @@ const destinations = [
   {
     id: "new-zealand",
     country: "New Zealand",
-    flag: "ðŸ‡³ðŸ‡¿",
+    // flag removed
     image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200",
     tagline: "Learn in Paradise",
     cityImages: [
@@ -198,7 +198,7 @@ const destinations = [
   {
     id: "europe",
     country: "Europe",
-    flag: "ðŸ‡ªðŸ‡º",
+    // flag removed
     image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1200",
     tagline: "Diverse Culture, Rich Heritage",
     cityImages: [
@@ -300,6 +300,7 @@ export function ProgramsPage() {
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-3 text-center">
                   <div className="text-2xl mb-1">{dest.flag}</div>
+                             {/* flag removed */}
                   <p className="text-white text-sm font-semibold">{dest.country}</p>
                 </div>
               </motion.a>
@@ -335,6 +336,7 @@ export function ProgramsPage() {
                   <div className="absolute bottom-8 left-8 right-8">
                     <div className="flex items-center gap-4 mb-4">
                       <span className="text-6xl">{destination.flag}</span>
+                                 {/* flag removed */}
                       <div>
                         <h2 className="text-4xl font-bold text-white">
                           Study in {destination.country}

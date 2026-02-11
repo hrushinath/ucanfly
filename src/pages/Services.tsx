@@ -239,7 +239,8 @@ export function ServicesPage() {
         </div>
       </section>
 
-      {/* Success Stories Gallery - REPLACE WITH YOUR IMAGES */}
+      {/* Success Stories Gallery - COMMENTED OUT */}
+      {/*
       <section className="bg-white py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -292,6 +293,7 @@ export function ServicesPage() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Office & Team Gallery - REPLACE WITH YOUR IMAGES */}
       <section className="bg-gray-50 py-20 lg:py-28">

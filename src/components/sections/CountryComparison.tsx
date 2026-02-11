@@ -7,7 +7,7 @@ const countries = [
   {
     id: "usa",
     name: "United States",
-    flag: "ðŸ‡ºðŸ‡¸",
+    // flag removed
     image: "https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=400",
     tuitionRange: "$20,000 - $55,000/year",
     livingCost: "$15,000 - $25,000/year",
@@ -23,7 +23,7 @@ const countries = [
   {
     id: "uk",
     name: "United Kingdom",
-    flag: "ðŸ‡¬ðŸ‡§",
+    // flag removed
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400",
     tuitionRange: "Â£15,000 - Â£38,000/year",
     livingCost: "Â£12,000 - Â£18,000/year",
@@ -39,7 +39,7 @@ const countries = [
   {
     id: "canada",
     name: "Canada",
-    flag: "ðŸ‡¨ðŸ‡¦",
+    // flag removed
     image: "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=400",
     tuitionRange: "CAD 15,000 - 35,000/year",
     livingCost: "CAD 12,000 - 18,000/year",
@@ -55,7 +55,7 @@ const countries = [
   {
     id: "australia",
     name: "Australia",
-    flag: "ðŸ‡¦ðŸ‡º",
+    // flag removed
     image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=400",
     tuitionRange: "AUD 20,000 - 45,000/year",
     livingCost: "AUD 18,000 - 25,000/year",
@@ -71,7 +71,7 @@ const countries = [
   {
     id: "germany",
     name: "Germany",
-    flag: "ðŸ‡©ðŸ‡ª",
+    // flag removed
     image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=400",
     tuitionRange: "â‚¬0 - â‚¬20,000/year",
     livingCost: "â‚¬10,000 - â‚¬12,000/year",
@@ -87,7 +87,7 @@ const countries = [
   {
     id: "ireland",
     name: "Ireland",
-    flag: "ðŸ‡®ðŸ‡ª",
+    // flag removed
     image: "https://images.unsplash.com/photo-1590086782792-42dd2350140d?w=400",
     tuitionRange: "â‚¬10,000 - â‚¬25,000/year",
     livingCost: "â‚¬10,000 - â‚¬15,000/year",
@@ -164,7 +164,7 @@ export function CountryComparison() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="text-xl">{country.flag}</span>
+              {/* flag removed */}
               <span>{country.name}</span>
               {selectedCountries.includes(country.id) && (
                 <Check className="h-4 w-4" />
@@ -198,7 +198,7 @@ export function CountryComparison() {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                       <div className="absolute bottom-3 left-3">
-                        <div className="text-2xl mb-1">{country.flag}</div>
+                        {/* flag removed */}
                         <h3 className="text-white font-bold">{country.name}</h3>
                       </div>
                     </div>

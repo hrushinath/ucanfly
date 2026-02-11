@@ -8,7 +8,7 @@ export { GoogleReviews } from "./GoogleReviews";
 export { ContactCTA } from "./ContactCTA";
 export { Stats } from "./Stats";
 export { UniversityShowcase } from "./UniversityShowcase";
-export { StudentStories } from "./StudentStories";
+// export { StudentStories } from "./StudentStories"; // Commented out
 export { InteractiveFAQ } from "./InteractiveFAQ";
 export { CountryComparison } from "./CountryComparison";
 

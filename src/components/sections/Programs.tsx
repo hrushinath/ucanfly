@@ -8,7 +8,7 @@ const destinations = [
   {
     id: "uk",
     country: "United Kingdom",
-    flag: "ðŸ‡¬ðŸ‡§",
+    // flag removed
     tagline: "Home of World-Class Education",
     description: "Study at prestigious universities like Oxford, Cambridge, and Imperial College. Experience rich culture and history while earning globally recognized degrees.",
     universities: "150+ Partner Universities",
@@ -20,7 +20,7 @@ const destinations = [
   {
     id: "usa",
     country: "United States",
-    flag: "ðŸ‡ºðŸ‡¸",
+    // flag removed
     tagline: "Land of Opportunities",
     description: "Access cutting-edge research facilities and diverse academic programs. Build a global network and explore endless career opportunities in the world's largest economy.",
     universities: "200+ Partner Universities",
@@ -32,7 +32,7 @@ const destinations = [
   {
     id: "canada",
     country: "Canada",
-    flag: "ðŸ‡¨ðŸ‡¦",
+    // flag removed
     tagline: "Quality Education, Great Lifestyle",
     description: "Enjoy affordable education with excellent post-study work options. Canada welcomes international students with pathways to permanent residency.",
     universities: "100+ Partner Universities",
@@ -44,7 +44,7 @@ const destinations = [
   {
     id: "australia",
     country: "Australia",
-    flag: "ðŸ‡¦ðŸ‡º",
+    // flag removed
     tagline: "Innovation Meets Adventure",
     description: "World-renowned universities in stunning locations. Benefit from a strong economy, multicultural society, and excellent work opportunities for students.",
     universities: "80+ Partner Universities",
@@ -56,7 +56,7 @@ const destinations = [
   {
     id: "new-zealand",
     country: "New Zealand",
-    flag: "ðŸ‡³ðŸ‡¿",
+    // flag removed
     tagline: "Learn in Paradise",
     description: "Quality British-style education in a safe, friendly environment. Experience breathtaking landscapes while building your international career.",
     universities: "30+ Partner Universities",
@@ -68,7 +68,7 @@ const destinations = [
   {
     id: "europe",
     country: "Europe",
-    flag: "ðŸ‡ªðŸ‡º",
+    // flag removed
     tagline: "Diverse Culture, Rich Heritage",
     description: "Study in Germany, France, Ireland, and more. Many programs offer affordable or free education with exposure to multiple cultures and languages.",
     universities: "150+ Partner Universities",
@@ -158,7 +158,7 @@ export function Programs() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute top-4 right-4">
-                    <span className="text-5xl">{destination.flag}</span>
+                    {/* flag removed */}
                   </div>
                   <div className="absolute bottom-4 left-4">
                     <h3 className="text-2xl font-bold text-white">

@@ -13,7 +13,7 @@ const navLinks: NavLink[] = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Services", path: "/services" },
-  { name: "Study Abroad", path: "/programs" },
+  { name: "Study Abroad", path: "/studyabroad" },
   { name: "Contact", path: "/contact" },
 ];
 

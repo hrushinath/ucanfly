@@ -59,7 +59,7 @@ export function Testimonials() {
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-primary-600">
-            Success Stories
+            Testimonials
           </span>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             What Our Students Say

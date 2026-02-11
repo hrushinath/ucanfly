@@ -6,7 +6,7 @@
   Programs,
   UniversityShowcase,
   HowItWorks,
-  Testimonials,
+  // Testimonials,
   GoogleReviews,
   CountryComparison,
   InteractiveFAQ,
@@ -24,7 +24,7 @@ export function Home() {
       <WhyChooseUs />
       <HowItWorks />
       <CountryComparison />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <GoogleReviews />
       <InteractiveFAQ />
       <ContactCTA />

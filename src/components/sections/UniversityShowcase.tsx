@@ -9,7 +9,7 @@ const universities = [
     id: 1,
     name: "University of Oxford",
     country: "United Kingdom",
-    flag: "ðŸ‡¬ðŸ‡§",
+    // flag removed
     image: "https://images.unsplash.com/photo-1583225214464-9296029427aa?w=800",
     ranking: "#2 World Ranking",
     students: "24,000+ Students",
@@ -20,7 +20,7 @@ const universities = [
     id: 2,
     name: "Harvard University",
     country: "United States",
-    flag: "ðŸ‡ºðŸ‡¸",
+    // flag removed
     image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800",
     ranking: "#3 World Ranking",
     students: "31,000+ Students",
@@ -31,7 +31,7 @@ const universities = [
     id: 3,
     name: "University of Toronto",
     country: "Canada",
-    flag: "ðŸ‡¨ðŸ‡¦",
+    // flag removed
     image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=800",
     ranking: "#34 World Ranking",
     students: "91,000+ Students",
@@ -42,7 +42,7 @@ const universities = [
     id: 4,
     name: "University of Melbourne",
     country: "Australia",
-    flag: "ðŸ‡¦ðŸ‡º",
+    // flag removed
     image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800",
     ranking: "#37 World Ranking",
     students: "51,000+ Students",
@@ -53,7 +53,7 @@ const universities = [
     id: 5,
     name: "ETH Zurich",
     country: "Switzerland",
-    flag: "ðŸ‡¨ðŸ‡­",
+    // flag removed
     image: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800",
     ranking: "#9 World Ranking",
     students: "24,000+ Students",
@@ -64,7 +64,7 @@ const universities = [
     id: 6,
     name: "National University of Singapore",
     country: "Singapore",
-    flag: "ðŸ‡¸ðŸ‡¬",
+    // flag removed
     image: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=800",
     ranking: "#11 World Ranking",
     students: "40,000+ Students",
@@ -127,7 +127,7 @@ export function UniversityShowcase() {
                   
                   {/* Country Flag */}
                   <div className="absolute top-4 right-4 text-4xl bg-white/90 rounded-full p-2 shadow-lg">
-                    {university.flag}
+                    {/* flag removed */}
                   </div>
                   
                   {/* Ranking Badge */}

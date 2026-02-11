@@ -139,7 +139,7 @@ export function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <p className="text-white text-lg font-semibold">Join 10,000+ Students Worldwide</p>
-                  <p className="text-primary-200 text-sm mt-1">Success stories from 22+ countries</p>
+                  <p className="text-primary-200 text-sm mt-1">Students placed in 22+ countries</p>
                 </div>
               </motion.div>
               
@@ -183,7 +183,7 @@ export function Hero() {
                 </div>
                 <div className="flex items-center gap-1">
                   {[1,2,3,4,5].map(i => (
-                    <span key={i} className="text-yellow-300">â˜…</span>
+                    <span key={i} className="text-yellow-300">⭐</span>
                   ))}
                 </div>
               </motion.div>

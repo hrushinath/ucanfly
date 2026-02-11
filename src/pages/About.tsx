@@ -364,7 +364,7 @@ export function About() {
               { image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800", title: "Student Meet", subtitle: "Orientation session" },
               { image: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800", title: "Team Outing", subtitle: "Building bonds" },
               { image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800", title: "Annual Conference", subtitle: "Industry insights" },
-              { image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800", title: "Success Stories", subtitle: "Happy students" },
+              { image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800", title: "Client Meetings", subtitle: "Personalized guidance" },
             ].map((event, idx) => (
               <motion.div
                 key={idx}
