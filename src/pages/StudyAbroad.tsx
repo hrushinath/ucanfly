@@ -49,7 +49,7 @@ export default function StudyAbroad() {
             <a href="/programs#europe" className="text-primary-600 font-semibold hover:underline">View More</a>
           </div>          {/* New Zealand */}
           <div className="bg-gray-50 rounded-lg p-6 shadow">
-            <img src="https://ucanfly.in/wp-content/uploads/2022/07/new-zealand-980x654.png.webp" alt="New Zealand" className="rounded mb-4" />
+            <img src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=980&h=654&fit=crop" alt="New Zealand" className="rounded mb-4" />
             <h3 className="text-xl font-bold mb-2">Study in New Zealand</h3>
             <p className="mb-2 text-gray-700">New Zealand offers world-class education with a focus on practical learning and innovation. Known for its stunning landscapes and welcoming culture, New Zealand provides a safe and friendly environment for international students. With high-quality universities and excellent post-study work opportunities, it's an ideal destination to build your future.</p>
             <a href="/programs#newzealand" className="text-primary-600 font-semibold hover:underline">View More</a>
