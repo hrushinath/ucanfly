@@ -47,8 +47,13 @@ export default function StudyAbroad() {
             <h3 className="text-xl font-bold mb-2">Study in Europe</h3>
             <p className="mb-2 text-gray-700">The European Union is home to some of the continent’s most beautiful cities and most vibrant cultures. In fact, with countries like Germany, France, Italy, and the Netherlands all located within its borders, it’s no wonder why there are so many Europeans living abroad as well as students studying in Europe.</p>
             <a href="/programs#europe" className="text-primary-600 font-semibold hover:underline">View More</a>
-          </div>
-        </div>
+          </div>          {/* New Zealand */}
+          <div className="bg-gray-50 rounded-lg p-6 shadow">
+            <img src="https://ucanfly.in/wp-content/uploads/2022/07/new-zealand-980x654.png.webp" alt="New Zealand" className="rounded mb-4" />
+            <h3 className="text-xl font-bold mb-2">Study in New Zealand</h3>
+            <p className="mb-2 text-gray-700">New Zealand offers world-class education with a focus on practical learning and innovation. Known for its stunning landscapes and welcoming culture, New Zealand provides a safe and friendly environment for international students. With high-quality universities and excellent post-study work opportunities, it's an ideal destination to build your future.</p>
+            <a href="/programs#newzealand" className="text-primary-600 font-semibold hover:underline">View More</a>
+          </div>        </div>
       </section>
     </main>
   );
