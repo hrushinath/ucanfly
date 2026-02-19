@@ -34,7 +34,7 @@ const destinations = [
       workPermit: "20 hrs/week during studies",
       postStudy: "2 years",
     },
-    popular: ["Business & Management", "Engineering", "Law", "Medicine", "Arts & Design"],
+    // ...existing code...
     requirements: [
       "IELTS 6.0-7.0 or equivalent",
       "Bachelor's degree for PG programs",
@@ -72,7 +72,7 @@ const destinations = [
       workPermit: "20 hrs/week on campus",
       postStudy: "1-3 years (OPT/STEM)",
     },
-    popular: ["STEM", "Business Administration", "Computer Science", "Healthcare", "Finance"],
+    // ...existing code...
     requirements: [
       "TOEFL 80-100 or IELTS 6.5-7.5",
       "GRE/GMAT for graduate programs",
@@ -110,7 +110,7 @@ const destinations = [
       workPermit: "20 hrs/week during studies",
       postStudy: "Up to 3 years",
     },
-    popular: ["Information Technology", "Business Analytics", "Engineering", "Healthcare", "Hospitality"],
+    // ...existing code...
     requirements: [
       "IELTS 6.0-6.5 or equivalent",
       "Academic transcripts",
@@ -148,7 +148,7 @@ const destinations = [
       workPermit: "48 hrs/fortnight",
       postStudy: "2-4 years",
     },
-    popular: ["Engineering", "Nursing & Healthcare", "Business", "IT & Data Science", "Environmental Science"],
+    // ...existing code...
     requirements: [
       "IELTS 6.0-7.0 or PTE 50-65",
       "Academic qualifications",
@@ -186,7 +186,7 @@ const destinations = [
       workPermit: "20 hrs/week",
       postStudy: "1-3 years",
     },
-    popular: ["Agriculture & Viticulture", "Tourism & Hospitality", "IT", "Healthcare", "Environmental Science"],
+    // ...existing code...
     requirements: [
       "IELTS 6.0-6.5 or equivalent",
       "Academic transcripts",

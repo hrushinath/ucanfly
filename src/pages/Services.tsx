@@ -98,7 +98,7 @@ const services = [
     icon: GraduationCap,
     title: "Scholarship Support",
     description: "Guidance on available scholarships and complete assistance with scholarship applications to help fund your international education.",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800",
+    image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800", // Scholarship: graduation cap
     features: [
       "Scholarship identification",
       "Application assistance",
@@ -122,6 +122,8 @@ const services = [
     icon: MapPin,
     title: "Post-Landing Support",
     description: "Continued assistance even after you land abroad, including accommodation search, bank account setup, and local orientation.",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
+    // Direct link: https://unsplash.com/photos/white-biplane-UYiesSO4FiM
     features: [
       "Accommodation assistance",
       "Bank account guidance",

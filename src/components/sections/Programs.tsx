@@ -12,7 +12,7 @@ const destinations = [
     tagline: "Home of World-Class Education",
     description: "Study at prestigious universities like Oxford, Cambridge, and Imperial College. Experience rich culture and history while earning globally recognized degrees.",
     universities: "150+ Partner Universities",
-    popular: ["Business", "Engineering", "Arts", "Medicine"],
+    // ...existing code...
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800", // London/UK campus image
     avgTuition: "Â£15,000 - Â£38,000/year",
     popularCities: ["London", "Oxford", "Cambridge", "Edinburgh"],
@@ -24,7 +24,7 @@ const destinations = [
     tagline: "Land of Opportunities",
     description: "Access cutting-edge research facilities and diverse academic programs. Build a global network and explore endless career opportunities in the world's largest economy.",
     universities: "200+ Partner Universities",
-    popular: ["STEM", "Business", "Healthcare", "Arts"],
+    // ...existing code...
     image: "https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=800", // US campus image
     avgTuition: "$20,000 - $55,000/year",
     popularCities: ["New York", "Boston", "California", "Texas"],
@@ -36,7 +36,7 @@ const destinations = [
     tagline: "Quality Education, Great Lifestyle",
     description: "Enjoy affordable education with excellent post-study work options. Canada welcomes international students with pathways to permanent residency.",
     universities: "100+ Partner Universities",
-    popular: ["IT", "Healthcare", "Engineering", "Business"],
+    // ...existing code...
     image: "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=800", // Canadian campus image
     avgTuition: "CAD 15,000 - 35,000/year",
     popularCities: ["Toronto", "Vancouver", "Montreal", "Calgary"],
@@ -48,7 +48,7 @@ const destinations = [
     tagline: "Innovation Meets Adventure",
     description: "World-renowned universities in stunning locations. Benefit from a strong economy, multicultural society, and excellent work opportunities for students.",
     universities: "80+ Partner Universities",
-    popular: ["Engineering", "Medicine", "Business", "IT"],
+    // ...existing code...
     image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800", // Sydney/Australian campus
     avgTuition: "AUD 20,000 - 45,000/year",
     popularCities: ["Sydney", "Melbourne", "Brisbane", "Perth"],
@@ -60,7 +60,7 @@ const destinations = [
     tagline: "Learn in Paradise",
     description: "Quality British-style education in a safe, friendly environment. Experience breathtaking landscapes while building your international career.",
     universities: "30+ Partner Universities",
-    popular: ["Agriculture", "Tourism", "IT", "Healthcare"],
+    // ...existing code...
     image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800", // New Zealand landscape/campus
     avgTuition: "NZD 22,000 - 32,000/year",
     popularCities: ["Auckland", "Wellington", "Christchurch"],
@@ -72,7 +72,7 @@ const destinations = [
     tagline: "Diverse Culture, Rich Heritage",
     description: "Study in Germany, France, Ireland, and more. Many programs offer affordable or free education with exposure to multiple cultures and languages.",
     universities: "150+ Partner Universities",
-    popular: ["Engineering", "Arts", "Business", "Sciences"],
+    // ...existing code...
     image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800", // European city/campus
     avgTuition: "â‚¬0 - â‚¬20,000/year",
     popularCities: ["Berlin", "Paris", "Amsterdam", "Dublin"],
@@ -82,8 +82,6 @@ const destinations = [
 export function Programs() {
   const [expandedCard, setExpandedCard] = useState(null);
   const [selectedFilter, setSelectedFilter] = useState("All");
-  
-  const popularFields = ["All", "Business", "Engineering", "IT", "Medicine", "Arts"];
   
   return (
     <section className="bg-white py-20 lg:py-28">
@@ -108,34 +106,11 @@ export function Programs() {
           </p>
         </motion.div>
 
-        {/* Interactive Filter Buttons */}
-        <motion.div 
-          className="mt-12 flex flex-wrap justify-center gap-3"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
-        >
-          {popularFields.map((field) => (
-            <button
-              key={field}
-              onClick={() => setSelectedFilter(field)}
-              className={`px-6 py-2 rounded-full font-medium transition-all ${
-                selectedFilter === field
-                  ? 'bg-primary-600 text-white shadow-lg scale-105'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
-            >
-              {field}
-            </button>
-          ))}
-        </motion.div>
+        {/* ...existing code... */}
 
         {/* Destinations Grid */}
         <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {destinations
-            .filter(dest => selectedFilter === "All" || dest.popular.includes(selectedFilter))
-            .map((destination, index) => (
+          {destinations.map((destination, index) => (
             <motion.div
               key={destination.id}
               initial={{ opacity: 0, y: 20 }}
@@ -193,22 +168,7 @@ export function Programs() {
                     </div>
                   </div>
 
-                  {/* Popular Fields */}
-                  <div className="mb-4">
-                    <span className="text-xs font-medium uppercase tracking-wider text-gray-500">
-                      Popular Fields
-                    </span>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      {destination.popular.map((field) => (
-                        <span
-                          key={field}
-                          className="rounded-full bg-primary-50 px-3 py-1 text-xs font-medium text-primary-700 hover:bg-primary-100 transition-colors"
-                        >
-                          {field}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+                  {/* ...existing code... */}
 
                   {/* Expandable Section */}
                   <motion.div

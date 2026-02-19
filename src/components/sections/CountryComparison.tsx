@@ -15,7 +15,7 @@ const countries = [
     workWhileStudy: "20 hrs/week on-campus",
     postStudyWork: "1-3 years OPT",
     prOpportunity: "H1B/EB pathway",
-    popularCities: ["New York", "Boston", "California"],
+    // ...existing code...
     pros: ["World-class universities", "Diverse programs", "Research opportunities", "Global recognition"],
     cons: ["High tuition costs", "Visa complexity", "Healthcare expenses"],
     ranking: "Home to 50+ top universities",
@@ -31,7 +31,7 @@ const countries = [
     workWhileStudy: "20 hrs/week",
     postStudyWork: "2 years PSW",
     prOpportunity: "Skilled Worker visa",
-    popularCities: ["London", "Oxford", "Edinburgh"],
+    // ...existing code...
     pros: ["Shorter duration", "Historic universities", "No IELTS for some", "Rich culture"],
     cons: ["Weather", "High city costs", "Brexit changes"],
     ranking: "4 universities in global top 10",
@@ -47,7 +47,7 @@ const countries = [
     workWhileStudy: "20 hrs/week",
     postStudyWork: "Up to 3 years PGWP",
     prOpportunity: "Express Entry (High success)",
-    popularCities: ["Toronto", "Vancouver", "Montreal"],
+    // ...existing code...
     pros: ["PR pathways", "Affordable", "Safe & multicultural", "Quality education"],
     cons: ["Cold weather", "Competitive admissions", "Remote locations"],
     ranking: "Top choice for quality of life",
@@ -63,7 +63,7 @@ const countries = [
     workWhileStudy: "48 hrs/fortnight",
     postStudyWork: "2-4 years PSW",
     prOpportunity: "Skilled migration",
-    popularCities: ["Sydney", "Melbourne", "Brisbane"],
+    // ...existing code...
     pros: ["Great lifestyle", "High wages", "Beautiful locations", "Research funding"],
     cons: ["Distance from home", "High living costs", "Strict visa rules"],
     ranking: "7 universities in top 100",
@@ -79,7 +79,7 @@ const countries = [
     workWhileStudy: "20 hrs/week",
     postStudyWork: "18 months job search",
     prOpportunity: "Blue Card (EU work permit)",
-    popularCities: ["Berlin", "Munich", "Frankfurt"],
+    // ...existing code...
     pros: ["Low/no tuition", "Strong economy", "Engineering excellence", "EU travel"],
     cons: ["German language", "Blocked account", "Bureaucracy"],
     ranking: "Free education at public universities",
@@ -95,7 +95,7 @@ const countries = [
     workWhileStudy: "20 hrs/week",
     postStudyWork: "1-2 years",
     prOpportunity: "Stamp 4 pathway",
-    popularCities: ["Dublin", "Cork", "Galway"],
+    // ...existing code...
     pros: ["Tech hub", "English speaking", "Friendly people", "EU access"],
     cons: ["Limited universities", "Housing crisis", "Weather"],
     ranking: "European tech capital",
