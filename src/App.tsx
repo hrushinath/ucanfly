@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar, Footer } from "@/components/layout";
-import { About, Contact, Home, ProgramsPage, ServicesPage } from "./pages";
+import { About, Contact, Home, ProgramsPage, ServicesPage, DestinationDetailPage } from "./pages";
 import { StudyAbroad } from "./pages";
 
 
@@ -15,6 +15,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/programs" element={<ProgramsPage />} />
+            <Route path="/programs/:id" element={<DestinationDetailPage />} />
             <Route path="/studyabroad" element={<StudyAbroad />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

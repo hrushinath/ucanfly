@@ -164,29 +164,7 @@ export function Hero() {
                 <p className="text-xs text-gray-600">"Got admission to my dream university!"</p>
               </motion.div>
               
-              <motion.div 
-                className="absolute -bottom-4 -left-4 bg-secondary-400 rounded-xl shadow-xl p-4 max-w-[180px]"
-                animate={{ y: [0, 10, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  {/* REPLACE WITH ACTUAL STUDENT PHOTO */}
-                  <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" 
-                    alt="Student" 
-                    className="w-10 h-10 rounded-full object-cover"
-                  />
-                  <div>
-                    <p className="font-semibold text-sm text-white">Rahul M.</p>
-                    <p className="text-xs text-primary-100">Canada - UBC</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-1">
-                  {[1,2,3,4,5].map(i => (
-                    <span key={i} className="text-yellow-300">⭐</span>
-                  ))}
-                </div>
-              </motion.div>
+
             </div>
           </motion.div>
         </div>

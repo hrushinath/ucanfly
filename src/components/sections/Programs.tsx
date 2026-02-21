@@ -197,7 +197,7 @@ export function Programs() {
 
                   {/* CTA */}
                   <Link
-                    to={`/programs#${destination.id}`}
+                    to={`/programs/${destination.id}`}
                     onClick={(e) => e.stopPropagation()}
                     className="mt-4 flex items-center justify-center gap-2 w-full bg-primary-600 text-white py-2 rounded-lg font-semibold hover:bg-primary-700 transition-colors group"
                   >

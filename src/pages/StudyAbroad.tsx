@@ -18,41 +18,41 @@ export default function StudyAbroad() {
             <img src="https://ucanfly.in/wp-content/uploads/2022/07/london-financial-district-skyline-sunset-980x654.png.webp" alt="UK" className="rounded mb-4" />
             <h3 className="text-xl font-bold mb-2">Study in United Kingdom</h3>
             <p className="mb-2 text-gray-700">United Kingdom is famous not only for the biggest Empire in the history they had and for having towns with huge castles, it is the second most popular study destination for the international students from all around the world.</p>
-            <a href="/programs#uk" className="text-primary-600 font-semibold hover:underline">View More</a>
+            <a href="/programs/uk" className="text-primary-600 font-semibold hover:underline">View More</a>
           </div>
           {/* USA */}
           <div className="bg-gray-50 rounded-lg p-6 shadow">
             <img src="https://ucanfly.in/wp-content/uploads/2022/07/statue-liberty-with-large-american-flag-new-york-skyline-980x654.png.webp" alt="USA" className="rounded mb-4" />
             <h3 className="text-xl font-bold mb-2">Study in USA</h3>
             <p className="mb-2 text-gray-700">There are many reasons why studying in the United States is a good idea. Firstly, the quality of education is extremely high. Almost without exception, the universities in the United States are among the best in the world. Furthermore, the level of research is also very high, and the opportunities for research are wide open. Finally, the country is extremely welcoming and friendly, which will make it easy to settle in the USA.</p>
-            <a href="/programs#usa" className="text-primary-600 font-semibold hover:underline">View More</a>
+            <a href="/programs/usa" className="text-primary-600 font-semibold hover:underline">View More</a>
           </div>
           {/* Canada */}
           <div className="bg-gray-50 rounded-lg p-6 shadow">
             <img src="https://ucanfly.in/wp-content/uploads/2022/07/toronto-city-skyline-night-ontario-canada-1-980x630.png.webp" alt="Canada" className="rounded mb-4" />
             <h3 className="text-xl font-bold mb-2">Study in Canada</h3>
             <p className="mb-2 text-gray-700">Canada is a great choice if you’re looking to study abroad. Canada is one of the most developed countries in the world, and has many things to offer to those interested in studying abroad. Canada has a large population, making it easy to find a place to live and complete your degree. It also has a warm climate, which makes it a great place to study while experiencing snow.</p>
-            <a href="/programs#canada" className="text-primary-600 font-semibold hover:underline">View More</a>
+            <a href="/programs/canada" className="text-primary-600 font-semibold hover:underline">View More</a>
           </div>
           {/* Australia */}
           <div className="bg-gray-50 rounded-lg p-6 shadow">
             <img src="https://ucanfly.in/wp-content/uploads/2022/07/downtown-sydney-skyline-australia-from-top-view-sunset-980x654.png.webp" alt="Australia" className="rounded mb-4" />
             <h3 className="text-xl font-bold mb-2">Study in Australia</h3>
             <p className="mb-2 text-gray-700">Australia is a great place to study if you want to travel and meet people from all over the world. If you like outdoor activities, then you should definitely consider studying in Australia. You can explore the outdoors, go on hiking trips, or spend time at a beach. There are also many cultural and social opportunities, such as attending sporting events or visiting museums and galleries.</p>
-            <a href="/programs#australia" className="text-primary-600 font-semibold hover:underline">View More</a>
+            <a href="/programs/australia" className="text-primary-600 font-semibold hover:underline">View More</a>
           </div>
           {/* Europe */}
           <div className="bg-gray-50 rounded-lg p-6 shadow">
             <img src="https://ucanfly.in/wp-content/uploads/2022/07/Europe-980x654.png.webp" alt="Europe" className="rounded mb-4" />
             <h3 className="text-xl font-bold mb-2">Study in Europe</h3>
             <p className="mb-2 text-gray-700">The European Union is home to some of the continent’s most beautiful cities and most vibrant cultures. In fact, with countries like Germany, France, Italy, and the Netherlands all located within its borders, it’s no wonder why there are so many Europeans living abroad as well as students studying in Europe.</p>
-            <a href="/programs#europe" className="text-primary-600 font-semibold hover:underline">View More</a>
+            <a href="/programs/europe" className="text-primary-600 font-semibold hover:underline">View More</a>
           </div>          {/* New Zealand */}
           <div className="bg-gray-50 rounded-lg p-6 shadow">
             <img src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=980&h=654&fit=crop" alt="New Zealand" className="rounded mb-4" />
             <h3 className="text-xl font-bold mb-2">Study in New Zealand</h3>
             <p className="mb-2 text-gray-700">New Zealand offers world-class education with a focus on practical learning and innovation. Known for its stunning landscapes and welcoming culture, New Zealand provides a safe and friendly environment for international students. With high-quality universities and excellent post-study work opportunities, it's an ideal destination to build your future.</p>
-            <a href="/programs#newzealand" className="text-primary-600 font-semibold hover:underline">View More</a>
+            <a href="/programs/new-zealand" className="text-primary-600 font-semibold hover:underline">View More</a>
           </div>        </div>
       </section>
     </main>
